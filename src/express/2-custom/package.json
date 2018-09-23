@@ -1,0 +1,10 @@
+{
+    "name": "ajax",
+    "version": "0.0.1",
+    "description": "Express + Ajax",
+    "dependencies": {
+        "express": "~4.14.0"
+    },
+    "author": "gjmananag",
+    "license": "MIT"
+}
