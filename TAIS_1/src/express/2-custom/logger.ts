@@ -1,4 +1,10 @@
-export const logger=  function(req:any, res:any, next:any) {
+import { 
+    NextFunction,
+    Request, 
+    Response 
+} from 'express';
+
+export const logger = function(req:Request, res:Response, next:NextFunction) {
     let start = +new Date();
     let stream = process.stdout;
 

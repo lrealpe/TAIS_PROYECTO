@@ -1,5 +1,6 @@
 "use strict";
-module.exports = function (req, res, next) {
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.logger = function (req, res, next) {
     let start = +new Date();
     let stream = process.stdout;
     res.on('finish', function () {
