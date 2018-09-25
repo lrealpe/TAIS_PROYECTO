@@ -1,0 +1,1 @@
+declare const google: any; //Para usar una aplicación de angular

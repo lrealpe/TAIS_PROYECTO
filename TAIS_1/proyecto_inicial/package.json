@@ -1,0 +1,35 @@
+{
+  "name": "tais",
+  "version": "1.0.0",
+  "description": "TAIS Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "angular",
+    "firebase"
+  ],
+  "author": "lcrm",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/express": "^4.16.0",
+    "@types/mongodb": "^3.1.9",
+    "@types/node": "^10.10.3",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "firebase": "^5.5.1",
+    "javascript-to-typescript": "^1.0.2",
+    "js-to-ts-converter": "^0.16.2",
+    "mongodb": "^3.1.6",
+    "rxjs": "^6.3.2"
+  }
+}
